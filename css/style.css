@@ -1,0 +1,130 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --white: #ffffff;
+  --black: #121723;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+input {
+  border-radius: 0;
+}
+
+body {
+  background-color: chocolate;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 50px 30px;
+}
+
+.heading {
+  font-size: 24px;
+}
+
+.heading,
+.text {
+  padding: 10px 20px;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+.text {
+  margin-bottom: 10px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 50px;
+  padding: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 7px;
+}
+
+.comments__name{
+  margin-bottom: 3px;
+}
+
+.comments__text{
+  padding-left: 15px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.list__link {
+  padding: 5px 10px;
+  border: 1px solid #000;
+  font-weight: 600;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.3);
+  text-shadow: 0 0 1px white;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav__btn {
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  user-select: none;
+}
